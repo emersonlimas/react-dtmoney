@@ -18,6 +18,56 @@ export const Container = styled.div`
             justify-content: space-between;
         }
 
+        &:hover {
+            .incomeImg{
+                animation: nudgeincome 2s infinite;
+            }
+
+            @keyframes nudgeincome { 
+                0% {
+                    transform: translateY(0);
+                }               
+                50% {
+                    transform: translateY(-1rem);
+                }
+                
+                100% {
+                    transform: translateY(-1rem);
+                }
+            }
+
+            .outcomeImg{
+                animation: nudgeoutcome 2s infinite;
+            }
+
+            @keyframes nudgeoutcome { 
+                0% {
+                    transform: translateY(0);
+                }               
+                50% {
+                    transform: translateY(1rem);
+                }
+                
+                100% {
+                    transform: translateY(1rem);
+                }
+            }
+
+            .totalImg{
+                animation: nudgetotal 2s infinite;
+            }
+
+            @keyframes nudgetotal { 
+                0% {
+                    transform: rotate(0);
+                }               
+                100% {
+                    transform: rotate(360deg);
+                }
+
+            }
+        }
+
         strong {
             display: block;
             margin-top: 1rem;
