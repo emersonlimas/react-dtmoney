@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="To.do" title="To.do" src="https://github.com/emersonlimas/react-dtmoney/blob/master/src/assets/logo-dtmoney.jpg" width="157px" />
+  <img alt="DtMoney" title="DtMoney" src="https://github.com/emersonlimas/react-dtmoney/blob/master/src/assets/logo-dtmoney.jpg" width="157px" />
 </h1>
 
 <p align="center">
@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="To.do" src="https://github.com/emersonlimas/react-dtmoney/blob/master/src/assets/dev-dtmoney.gif" width="90%">
+  <img alt="DtMoney" src="https://github.com/emersonlimas/react-dtmoney/blob/master/src/assets/dev-dtmoney.gif" width="90%">
 </p>
 
 ## 🧐 About <a name = "about"></a>
